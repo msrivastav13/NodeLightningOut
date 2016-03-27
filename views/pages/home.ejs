@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <% include ../partials/ldOut %>
+  </head>
+  <body class="slds">
+    <header>
+    </header>
+    <main>
+      <div >
+      url :<%= oauthtoken %>
+        <p>Sales Leaderboard</p>
+        <div id="leaderboard"></div>
+          <script>
+          var url = "<%= ouathLightningURL %>";
+          var token = "%= oauthtoken %>";
+            $Lightning.use("SEDreamin:SalesLeaderBoardVfApp", function() {
+                  $Lightning.createComponent("SEDreamin:SalesLeaderMain", {},
+                     "leaderboard",
+                      function(cmp) {
+                         // do some stuff
+                      });
+            },url,token );
+        </script>
+          </div>
+      </main>
+        <footer>
+        </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "nodelightning",
+  "version": "1.0.0",
+  "description": "Lightning out for Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "nforce": "*"
+  },
+  "author": "mohith",
+  "license": "ISC"
+}
