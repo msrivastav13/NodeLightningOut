@@ -10,7 +10,11 @@
       <div >
         <p>Sales Leaderboard On Heroku</p>
         <div id="leaderboard"></div>
-          <script>
+          </div>
+      </main>
+        <footer>
+        </footer>
+        <script>
           var url = "<%= ouathLightningURL %>";
           var token = "%= oauthtoken %>";
             $Lightning.use("SEDreamin:SalesLeaderBoardVfApp", function() {
@@ -21,9 +25,5 @@
                       });
             },url,token );
         </script>
-          </div>
-      </main>
-        <footer>
-        </footer>
   </body>
 </html>
