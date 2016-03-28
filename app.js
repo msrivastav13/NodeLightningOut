@@ -1,6 +1,6 @@
 var nforce = require('nforce');
 var express = require('express');
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 var org = nforce.createConnection({
   clientId: '3MVG9uudbyLbNPZMk0vYn7ICarLW4qV5bLdL.KqYws.i1.oN99y14Skth6utXg0nwCuPpSMtr9lB7HIOx6M65',
