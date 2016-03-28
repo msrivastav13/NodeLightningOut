@@ -1,0 +1,47 @@
+{
+  "name": "@salesforce-ux/design-system",
+  "version": "1.0.0",
+  "description": "Salesforce Lightning Design System",
+  "license": "SEE LICENSE IN README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/salesforce-ux/design-system.git"
+  },
+  "author": {
+    "name": "Salesforce"
+  },
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=2.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/salesforce-ux/design-system/issues"
+  },
+  "homepage": "https://github.com/salesforce-ux/design-system#readme",
+  "_id": "@salesforce-ux/design-system@1.0.0",
+  "scripts": {},
+  "_shasum": "2777841372d4b75a1304f3d61aa31443214a5852",
+  "_from": "@salesforce-ux/design-system@*",
+  "_npmVersion": "3.6.0",
+  "_nodeVersion": "5.6.0",
+  "_npmUser": {
+    "name": "salesforce-ux",
+    "email": "salesforce-ux-npm@salesforce.com"
+  },
+  "dist": {
+    "shasum": "2777841372d4b75a1304f3d61aa31443214a5852",
+    "tarball": "http://registry.npmjs.org/@salesforce-ux/design-system/-/design-system-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "salesforce-ux",
+      "email": "adam.putinski+salesforce-ux@salesforce.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/design-system-1.0.0.tgz_1456971056895_0.9862569686956704"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/@salesforce-ux/design-system/-/design-system-1.0.0.tgz"
+}
