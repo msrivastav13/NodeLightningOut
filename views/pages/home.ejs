@@ -16,7 +16,7 @@
         </footer>
         <script>
           var url = "<%= ouathLightningURL %>";
-          var token = "Bearer "+"%= oauthtoken %>";
+          var token = "Bearer "+"<%= oauthtoken %>";
           console.log(token);
             $Lightning.use("SEDreamin:SalesLeaderBoardVfApp", function() {
                   $Lightning.createComponent("SEDreamin:SalesLeaderMain", {},
